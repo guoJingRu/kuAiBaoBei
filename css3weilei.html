@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--1.使用伪类选择器使整个页面背景为粉色；
+2.写一个div，里面包含一个标题标签和5个段落标签，用伪类将标题标签背景设为红色；
+3.写一个div里面不包含任何元素，用伪类给该div添加5px淡蓝色边框；
+4.写一个div，里面包含4个段落标签，5个span，3个em标签，用伪类使段落标签里的第一个字体为红色，使span里面的第三个背景颜色为橙色，em中的最后一个字体为黄色
+5.写一个div里面只包含一个元素，用伪类使这个div背景为绿色
+6.写一个div里面写两个a，两个段落便签，要求点击第一个a标签跳转到第一个段落便签，点击第二个a标签，跳转到第二个段落标签，并用伪类使这两个a标签的字体颜色设置为蓝色并带下划线
+-->
+    <style>
+        /*:root{background: fuchsia;}
+        .div1 h6{
+            width: 100px;
+            height: 100px;
+            margin: 10px 10px;
+            border: 1px solid black;
+        }
+        .div1 p{
+            width: 100px;
+            height: 100px;
+            margin: 10px 10px;
+            border: 1px solid black;
+        }
+        .div1 h6:first-of-type{background: red;}
+        div:empty{
+            width: 200px;
+            height: 200px;
+            border: 2px solid lightskyblue;
+        }
+        .div3 span{display: block;}
+        .div3 em{display: block;}
+        .div3 p:first-of-type{
+            font-size: 50px;
+            color: red;
+        }
+        .div3 span:nth-of-type(3){
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background: orangered;
+        }
+        .div3 em:last-of-type{
+            font-size: 50px;
+            color: yellow;
+        }
+        div p:only-child{
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            background: green;
+        }
+        :target{
+            width: 200px;
+            height: 20px;
+            color: aqua;
+            border-bottom: 2px solid white;
+        }
+        .div6{
+            width: 500px;
+            height: 500px;
+            border: 10px solid rgba(0,0,0,.5);
+            background: url("img/index/index_banner.jpg");
+            background-origin: border-box;
+        }*/
+        .fenlan{
+            width: 500px;
+            height: 500px;
+            -moz-columns: 100px 6;
+            -webkit-columns: 100px 6;
+            columns: 100px 6;
+
+            -moz-column-gap: 100px;
+            -webkit-column-gap: 100px;
+            column-gap: 100px;
+
+            -moz-column-rule: 5px dotted red;
+            -webkit-column-rule: 5px dotted red;
+            column-rule: 5px dotted red;
+        }
+        .fenlan h3{
+            column-span: all;
+            text-align: center;
+            width: 100px;
+        }
+        @media screen and (max-width: 600px){
+            .media{
+                width: 600px;
+                height: 600px;
+                background: black;
+            }
+        }
+        @media screen and (min-device-width: 1000px){
+            .media{
+                width: 1000px;
+                height: 1000px;
+                background: red;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <h6></h6>
+    <p></p>
+    <p></p>
+    <p id="p1">这是第一段</p>
+    <p></p>
+    <p></p>
+</div>
+<div></div>
+<div class="div3">
+    <p>123</p>
+    <p>123</p>
+    <p id="p2">这是第二段</p>
+    <p>123</p>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <span>123</span>
+    <em>123</em>
+    <em>123</em>
+    <em>123</em>
+</div>
+<div>
+    <p></p>
+</div>
+<!--写一个div里面写两个a，两个段落便签，要求点击第一个a标签跳转到第一个段落便签，点击第二个a标签，跳转到第二个段落标签，并用伪类使这两个a标签的字体颜色设置为蓝色并带下划线-->
+<div>
+    <a href="#p1">点击跳转第一段</a>
+    <a href="#p2">点击跳转第二段</a>
+</div>
+<div class="div6">
+    <p>kshkjnxmcnsdjhnmjxnviusehkjnvjdshfie</p>
+    <p></p>
+</div>
+<div class="fenlan">
+    <h3>经建投集团</h3>
+    经建投集团作为中国投融资行业的一员，标志力求体现中国特色。采用了中国古钱与经建投的拼音打头字母"J""J""T"为基本形，并作图案化处理，使之更加简洁鲜明，彰显了经建投集团丰富深厚的文化底蕴。古钱图形是圆与形的框线设计，中间方孔，右上角45度斜线，寓意天圆地方，经济为本，五根线条则突出体现了公司"诚信、科学、发展、创新、和谐"的价值观。给人的感觉是简洁、稳重、易识别，寓意深刻，极具中国风格，展现了公司根植中华五千年文化的精髓，永创一流，努力成为现代化、国际化的投融资综合体。介于人们对象征财富的古代铜钱形象的根深蒂固的认识，经建投集团的标志能够给人们留下深刻的印象。经建投集团采用红色和金色作为标准色，一方面表达了中国传统的祈福平安的心理诉求；另一方面则表达了锐意进取、顽强稳健的创业精神。
+    经建投集团作为中国投融资行业的一员，标志力求体现中国特色。采用了中国古钱与经建投的拼音打头字母"J""J""T"为基本形，并作图案化处理，使之更加简洁鲜明，彰显了经建投集团丰富深厚的文化底蕴。古钱图形是圆与形的框线设计，中间方孔，右上角45度斜线，寓意天圆地方，经济为本，五根线条则突出体现了公司"诚信、科学、发展、创新、和谐"的价值观。给人的感觉是简洁、稳重、易识别，寓意深刻，极具中国风格，展现了公司根植中华五千年文化的精髓，永创一流，努力成为现代化、国际化的投融资综合体。介于人们对象征财富的古代铜钱形象的根深蒂固的认识，经建投集团的标志能够给人们留下深刻的印象。经建投集团采用红色和金色作为标准色，一方面表达了中国传统的祈福平安的心理诉求；另一方面则表达了锐意进取、顽强稳健的创业精神。
+</div>
+<div class="media">
+
+</div>
+</body>
+</html>

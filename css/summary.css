@@ -1,0 +1,99 @@
+/*以下是header样式*/
+header{
+    width: 100%;
+    height: 320px;
+    background: url("../img/summary/summary1.jpg") no-repeat center/100% 100%;
+    margin-top: 95px;
+    position: relative;
+}
+/*以下是main样式*/
+.main1{
+    font-size: 24px;
+    line-height: 82px;
+}
+.main2_left{
+    width: 375px;
+    height: 260px;
+}
+.main2_center{
+    width: 375px;
+    height: 260px;
+    margin-left: 30px;
+    padding-top: 28px;
+}
+.main2_center_p{
+    font-size: 14px;
+    line-height: 32px;
+    text-indent: 2em;
+}
+.main2_center a{
+    font-family: iconfont;
+    font-size: 14px;
+    line-height: 100px;
+    color: black;
+}
+.main2_center a:hover{
+    color: #D1232A;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.main2_center span{color: #D1232A}
+.main2_right{
+    width: 375px;
+    height: 260px;
+    margin-top: 30px;
+}
+.main2_right div{
+    width: 100%;
+    height: 120px;
+    background: #F1F2F3;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main2_right div:hover{
+    background: #D1242A;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.main2_right div:hover a{
+    color: white;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.main2_right div:hover span{
+    color: white;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.main2_right a{
+    font-size: 28px;
+    line-height: 120px;
+    margin-right: 55px;
+    color: black;
+}
+.main2_right span{
+    font-family: iconfont;
+    font-size: 90px;
+    color: #BBBBBB;
+    position: absolute;
+    top: 12px;
+    left: 52px;
+}
+.main3 li{
+    width: 374px;
+    height: 300px;
+    float: left;
+    margin: 80px 25px 100px 0;
+}
+.main3 p{
+    font-size: 28px;
+    line-height: 80px;
+}

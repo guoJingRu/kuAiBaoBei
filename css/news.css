@@ -1,0 +1,182 @@
+/*以下是header样式*/
+header{
+    width: 100%;
+    height: 320px;
+    background: url("../img/news/news1.png") no-repeat center/100% 100%;
+    margin: 95px 0 50px;
+    position: relative;
+}
+/*以下是主体样式*/
+.main1_left{
+    width: 519px;
+    height: 357px;
+}
+.main1_left:hover{
+    color: red;
+}
+.main1_left1{
+    position: relative;
+    width: 519px;
+    height: 312px;
+    background: url("../img/index/index_1.jpg");
+}
+.main1_left1 div{
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background: rgba(0,0,0,.3);
+}
+.main1_left1 div:hover{
+    background: rgba(255,0,0,.3);
+    cursor: pointer;
+}
+.left1_1{
+    position: absolute;
+    bottom: 5px;
+    right: 105px;
+}
+.left1_2{
+    position: absolute;
+    bottom: 5px;
+    right: 80px;
+}
+.left1_3{
+    position: absolute;
+    bottom: 5px;
+    right: 55px;
+}
+.left1_4{
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+}
+.left1_5{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.main1_left1_p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+}
+.main1_right{
+    width: 652px;
+    height: 352px;
+}
+.main1_right_p{
+    font-size: 30px;
+}
+.main1_right_2{
+    width: 640px;
+    height: 95px;
+    margin: 0 auto;
+    border-bottom: 1px dotted #999999;
+}
+.main1_right_2 a:first-child{
+    margin-top: 25px;
+    font-size: 18px;
+    color: #D1232A;
+    text-align: center;
+    font-weight: 900;
+    display: block;
+}
+.main1_right_2 a:nth-child(2){
+    margin-top: 15px;
+    width: 100%;
+    height: 85px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 25px;
+    display: block;
+}
+.main1_right_2 a:nth-child(2):hover{color: #D1232A;}
+.main1_right_ul2{
+    padding: 10px 5px 10px;
+    list-style: disc;
+    line-height: 30px;
+    list-style: none;
+}
+.main1_right_ul2 a{
+    font-size: 14px;
+    color: black;
+}
+.main1_right_ul2 span{
+    font-size: 14px;
+    float: right;
+    color: #8F8F8F;
+}
+.main1_right_ul2 li:hover{color: #D1232A;}
+.main1_right_ul2 li:hover a{color: #D1232A;}
+.main2 li{
+    padding: 10px 10px 0;
+    width: 370px;
+    height: 285px;
+    border-top: 3px solid #D1232A;
+    margin: 20px 0 35px;
+    background: #F7F7F7;
+}
+.main2 li:nth-child(2){margin: 20px 45px 0;}
+.main2 p:first-child{
+    font-size: 25px;
+    line-height: 50px;
+}
+.main2_p1{color: #D1232A;}
+.main2 p:nth-child(2){
+    font-size: 14px;
+    color: #D1232A;
+    line-height: 40px;
+}
+.main2 p:nth-child(3){
+    font-size: 12px;
+    color: #8F8F8F;
+    line-height: 22px;
+}
+.main2_p_a1 a{color: #D1232A;}
+.main2_p_a2 a{
+    display: block;
+    color: black;
+    font-size: 14px;
+    line-height: 35px;
+}
+.main2_p_a2 span{
+    float: right;
+    color: #8F8F8F;
+}
+.main2_p_a2 a:hover{color: #D1232A;}
+.main3{
+    padding-top: 35px;
+    width: 100%;
+    height: 380px;
+    background: #F7F7F7;
+    margin: 35px 0;
+}
+.main3_div{
+    width: 1200px;
+    height: 305px;
+    border-top: 4px solid #D1232A;
+}
+.main3_div img{margin-top: 95px;}
+.main3_div_right{
+    width: 370px;
+    height: 235px;
+    background: white;
+    padding: 23px;
+    margin: 50px 50px 0 0;
+}
+.main3_div_right a{
+    display: block;
+    color: black;
+    line-height: 35px;
+    font-size: 14px;
+}
+.main3_div_right a:hover{color: #D1232A;}
+.main3_div_right span{
+    float: right;
+    color: #8F8F8F;
+}
